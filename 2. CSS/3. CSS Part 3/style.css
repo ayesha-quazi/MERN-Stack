@@ -1,0 +1,37 @@
+*{
+    background-color: rgb(239, 207, 168);
+    text-align: center;
+}
+
+#div{
+    height: 100px;
+    width: 1000px;
+    border: 2px solid rgb(156, 96, 19);
+    padding: 5px;
+}
+
+h1{
+    background-color: rgb(177, 109, 20);
+    color: bisque;
+}
+
+h1:hover{
+    color:azure;
+    background-color: black;
+    transition: 2s;
+}
+
+#div:active{
+    color: rgb(227, 7, 7);
+    background-color: rgb(206, 226, 219);
+}
+
+span{
+    color: rebeccapurple;
+    background-color: rgb(224, 197, 137);
+}
+
+span:hover{
+    color: rgb(14, 8, 18);
+    background-color: rgb(229, 152, 98);
+}

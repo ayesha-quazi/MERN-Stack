@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CSS Part-06</h1>
+
+    <h2>What is Grid?</h2>
+    <!-- Grid: is a two-dimensional layout system that uses rows and columns to organize content on a web page. -->
+
+    <!-- Diff Flex n Grid. 
+    Flex: (row) horizontally placed by default
+    Grid: (column) vertically placed by default -->
+    
+        <h3> Grid-Playground!</h3>
+    <div id="container">
+            <div class="item one" >1</div>
+            <div class="item four">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+    </div>
+    <span> This is a span element </span>
+
+    <h2>Grid Model</h2>
+    {Grid line: lines forming because, merging of rows n columns.  
+        Grid cell: box made from Grid lines.
+        Grid  track: space between 2 grid cell }
+
+    <h2>Grid Template</h2>
+    {Used for defining lines n tracking size. 2 sub-types:
+    1. grid-template-rows:
+    2. grid-template-columns:  }
+
+    <h2>Grid Gaps</h2>
+    {Helps in adding some amount of gap in between elements/content.  
+    1. row-gap: 10px; 
+    2. column-gap: 10px; 
+    3. grid-gap: 20px; [this value will apply to both row n column ]}
+
+    <h2>Grid Columns</h2>
+    {defines an item's starting n ending position.}
+
+    <h2>Grid Rows</h2>
+    {defines an item starting n ending position inside a row.}
+
+    <h2>Grid Properties</h2>
+    justify-item; {used for whole group} justify-self {used for individual elem} [used for horizontal layouts]
+    align-item; {used for whole group} align-self {used for individual elem} [used for vertical layouts]
+
+    <h2>Animation in CSS </h2>
+    <p></p>
+        <section>
+            <div id="anime">This is a Div</div>
+        </section>
+
+    <h2>% Animation</h2>
+    <p>If we want to change our property at every-other stage. Instead of using the {from} n {to} property. We can use this percent-property like 0%, 50%, 100%</p>
+
+    <h2>Z-index</h2>
+    <p>Used when we want 2 obj/elem to come on above the other. The only thing we need to have while using this property is that we must have a position property set beforehand. This property doesn't work when its set to Default or Static.</p>
+
+    <p>z-index: 1, n for the other obj if we set it to 2, the second obj will come over the 1st obj n vice-versa.</p>
+
+    <div class="box one">1</div>
+    <div class="box two">2</div>
+    <div class="box three">3</div>
+
+
+</body>
+</html>

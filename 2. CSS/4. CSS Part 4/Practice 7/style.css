@@ -1,0 +1,49 @@
+*{
+    background-color: rgb(183, 151, 235);
+    text-align: center;
+}
+
+h3{
+    background-color: rgb(220, 232, 242);
+    color: rgb(81, 34, 181);
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(169, 231, 232);
+    text-align: center;
+    border: 3px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+
+#static{
+    background-color: rgb(64, 96, 85);
+    position: static;
+    top: 100px;
+    left: 100px;
+}
+
+#relative{
+    background-color: rgb(64, 96, 85);
+    position: relative;
+    top: 100px;
+    left: 100px;
+    /* left se force di right mein gya. 
+       top se force di neeche utr gya. */
+}
+
+#fixed{
+    background-color: rgb(64, 96, 85);
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
+
+#absolute{
+    background-color: rgb(64, 96, 85);
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}

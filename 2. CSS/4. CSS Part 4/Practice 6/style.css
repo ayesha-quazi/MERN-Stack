@@ -1,0 +1,37 @@
+*{
+    background-color: bisque;
+    text-align: center;
+}
+
+h2{
+    background-color: rgb(205, 162, 114);
+    color: rgb(97, 64, 24);
+}
+
+img{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+
+.desc{
+    padding: 0 2px 0 2px;
+    /* top, right, bottom, left */
+}
+.card{
+    height: 250px;
+    width: 130px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgb(66, 62, 39);
+    transition: 1s;
+}
+
+.card:hover{
+    box-shadow: 4px 4px 15px rgb(207, 180, 24);
+}
+
+
+

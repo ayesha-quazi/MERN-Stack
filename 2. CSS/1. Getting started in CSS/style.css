@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    color: rgb(177, 122, 49);
+    border: 2px solid;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+p{
+    font-family: Courier, monospace;
+    font-size: large;
+    color: rgb(91, 73, 27);
+    background-color: rgb(221, 191, 154);
+}
+
+span{
+    color: rgb(222, 109, 247);
+    background-color: rgb(92, 5, 5);
+}

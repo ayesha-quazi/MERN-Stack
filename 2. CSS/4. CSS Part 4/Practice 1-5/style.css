@@ -1,0 +1,127 @@
+*{
+    background-color: bisque;
+    text-align: center;
+}
+
+h1{
+    color: rgb(116, 76, 23);
+    background-color: rgb(232, 199, 157);
+}
+
+h2{
+    color: rgb(126, 81, 21);
+    background-color: rgb(231, 196, 150);
+}
+
+div{
+    border: 2px solid maroon;
+    height: 200px;
+    width: 200px;
+    background-color: rgba(138, 152, 147, 0.45);
+    /* here the opcaity for the color has been set to 0.493 */
+}
+
+#opac{
+    background-color: burlywood;
+    opacity: 0.89;
+    /* here if we change the opacity to 0 the whole content would vanish. */    
+}
+
+h3{
+    color: rgb(126, 81, 21);
+    background-color: rgb(231, 196, 150);
+    
+}
+
+
+
+/* 2nd */
+
+#you{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(173, 173, 233);
+    transition: margin-top 2s ease-in-out 0.2s;
+    margin-top: 10px;
+    margin: 0 auto;
+    /* to bring the content in center (short-trick) */
+}
+
+#you:hover{
+    margin-top: 400px;
+    background-color: rgb(232, 147, 177);
+    /* elem pr girne wla effect lagane k liye. [ease-in]   */
+}
+
+
+/* 3rd */
+section{
+    margin-top: 70px;
+}
+
+p{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(165, 202, 190);
+    border: 2px solid black;
+    margin: 15px auto;
+}
+
+p:nth-of-type(2n){
+    background-color: rgb(212, 182, 105);
+}
+
+p:nth-of-type(3n){
+    background-color: rgb(84, 51, 10);
+}
+
+#one{
+    /* rotate */
+    transform: rotate(45deg);
+    /* all the content inside this will also face the changes (will also rotate) */
+}
+
+#two{
+    /* scale */
+    transform: scale(0.5);
+    /* scale if value is set to [0.5] means 1/2 of original value, [2] then it would be 2x of org value. 
+    (x, y) values for x-axis n y-axis.*/
+}
+
+#three{
+    /* translate: movement along X-axis or Y-axis. Only in 2D */
+    transform: translate(150px, 100px);
+}
+
+#four{
+    /* skew: done in degree's [tilts the object] even the content inside the skew object has been skewed*/
+    transform: skew(30deg);
+}
+
+#five{
+    transform: rotate(-160deg) translate(23px, 30px);
+}
+
+
+/* 4th */
+
+.box{
+    margin: 20px auto;
+    background-color: rgb(76, 53, 37);
+    box-shadow: 2px 2px 15px rgb(15, 197, 66);
+    /* x-axis, y-axis, blur-radius (kitna blur hoga), blur ka color */
+}
+
+
+/* 5th Bg img */
+
+#img{
+    background-color: rgb(142, 190, 142);
+    height: 200px;
+    width: 400px;
+    margin: 30px auto;
+    background-image: url("https://images.unsplash.com/photo-1682695798522-6e208131916d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8");
+    background-size: cover;
+    /* back-size: cover/auto/contain */
+}

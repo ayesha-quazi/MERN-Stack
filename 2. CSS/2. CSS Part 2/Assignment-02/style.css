@@ -1,0 +1,56 @@
+/* Part A */
+
+#mainTopic{
+    color: rgb(46, 111, 222);
+}
+
+*{
+    text-align: center;
+}
+
+h1, h3 {
+    font-family: Georgia;
+}
+
+
+.para {
+    color: white;
+    background-color: cornflowerblue
+    ;
+}
+
+button {
+    background-color: purple;
+    color: azure;
+}
+
+/* Part B */
+
+button:hover{
+    color: blue;
+    background-color: yellow;
+}
+
+p:nth-of-type(2n+1) {
+    color: yellow;
+}      /* Doubt */
+
+h1::first-letter{
+    color: red;
+}
+
+#yes:checked + label {
+    color: darkgreen;
+    font-weight: bold;
+}
+
+/* 10 
+
+    h1
+    #mainContent
+    .main
+    div.main
+
+    #mainContent>div.main>.main>h1
+
+*/

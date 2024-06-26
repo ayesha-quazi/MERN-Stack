@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> 
+
+</head>
+<body>
+    <h1>CSS PART-05</h1>
+    <h2>Flexbox</h2>
+    <!-- Flexible box layout, arranging items in rows n columns. [Responsive]
+    {Flex-Model} [Imaginary axis] Row: main axis= horiz, cross axis= vertical.
+                Column: main axis= vertical, cross axis= horizontal
+-->
+
+
+    <h2>Display Flex</h2>
+
+    <h3>Flexbox Playground</h3>
+    <div id="container">
+        <div id="violet">V</div>
+        <div id="indigo">I</div>
+        <div id="blue">B</div>
+        <div id="green">G</div>
+        <div id="yellow">Y</div>
+        <div id="orange">O</div>
+        <div id="red">R</div>
+    </div>
+
+
+    <h2>Flex Direction</h2>
+    <!--f-d: row; [Main-Axis: left to rgt]
+        f-d: row-reverse; [Main-Axis: rgt to left]
+        f-d: column; [Main-Axis: top to bottom]
+        f-d: column-reverse; [Main-Axis: bottom to top]
+    -->
+    <!-- flex-direction: row-reverse; -->
+    <!-- If the dirn is reversed then the elem's will also follow the same pattern -->
+
+
+    <h2>Justify Content</h2>
+    <!-- Space around the elem/content along the main-axis -->
+    <!-- justify-content: 1.flex-start, 2.flex-end, 3.center, 4.space-between, 5.space-evenly, 6.space-around -->
+
+
+    <h2>Flex Wrap</h2>
+    <!-- FW: has 3 options;
+        1.no-wrap [default], 
+        2.wrap [wraps the elem/content if they aren't coming on the same line], 
+        3.wrap-reverse[it reverse the whole wrapped elem/content] -->
+
+
+    <h2>Align Items</h2>
+    <!-- items distributed along cross-axis.
+            has 3 options; 1. Align Items: flex-start [elem's will move to the top part], 2. AI: flex-end [elem's will move to the end part], 3. AI: center, 4. AI: baseline [all the div's text will come at same height ]-->
+
+
+    <h2>Align Content</h2>
+    <!-- distribution of space between n around content items along a cross-axis -->
+    <!-- Same as Justify-content: but this does for main-axis, n align-content: does it for cross-axis -->
+
+
+
+    <h2>Align Self</h2>
+    <!--Aligns an item along the cross-axis -->
+    <!-- Same as Align-items, but items are for group elem -->
+    <!-- This is for individual elem. Higher property then A-items. Works on indiv item -->
+
+
+
+    <h2>Flex Sizing</h2>
+    <!-- 1. flex-basis: occupies a given area. -->
+    <!-- 2. flex-grow: occupies in 1x, 2x value. Unitless growth. eg. f-g: 1. [For specified elem] This will cover all the left-out space in the div or anything. We can also set a min-width/max-width for the same property-->
+    <!-- 3. flex-shrink: used when elem's overflows  -->
+    <!-- 1. flex-basis:  -->
+
+
+</body>
+</html>

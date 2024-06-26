@@ -1,0 +1,33 @@
+*{
+    text-align: center;
+    background-color: bisque;
+}
+
+#div1{
+    background-color: rgb(231, 200, 160);
+}
+
+.div2{
+    background-color: rgb(238, 194, 137);
+}
+
+div{
+    background-color: rgb(167, 137, 99)
+}
+
+span{
+    color: rgb(67, 52, 12);
+    background-color: rgb(233, 177, 211);
+}
+
+button{
+    background-color:rgb(61, 10, 149);
+    color: aliceblue;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium';
+}
+
+button:hover{
+    background-color: rgb(243, 212, 159);
+    color: sienna;
+}

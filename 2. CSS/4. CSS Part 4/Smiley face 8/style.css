@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(110, 144, 161);
+}
+    
+    h1{
+    background-color: lavender;
+    text-align: center;
+}
+
+#face{    
+    height: 400px;
+    width: 400px;
+    background-color: rgb(223, 163, 45);
+    border-radius: 50%;
+}
+
+#mouth{
+    height: 75px;
+    width: 200px;
+    background-color: brown;
+    border-radius: 0 0 50px 50px;
+    position: absolute;
+    top: 300px;
+    left: 100px;
+}
+
+#right-eye, #left-eye{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+    position: absolute;
+    /* yaha ik eye dusre k upr chli gyi */
+    left: 100px;
+    top: 150px;
+}
+
+#right-eye{
+    left: 250px;
+}

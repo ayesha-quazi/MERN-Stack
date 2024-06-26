@@ -1,0 +1,64 @@
+body{
+  background-color: #d8d1b5;
+}
+
+h1{
+  text-align: center;
+}
+
+.card {
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px;
+}
+
+h3{
+  text-align: center;
+  color: #074e55;
+  font-size: large;
+}
+
+img {
+  width: 100%;
+  border-radius: 25px;
+}
+
+h2 {
+  color: #93370d;
+}
+
+span {
+  color: #8e732e;
+}
+
+h4 {
+  text-align: right;
+  color: #326c71;
+}
+
+#pets {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 670px) {
+  #pets{
+    flex-wrap: wrap;
+  }
+}
+
+.card:hover{
+  box-shadow: 2px 2px 15px rgb(227, 203, 67);
+}
+
+h1:hover{
+  background-color: #165b63;
+  color: beige;
+}
+
+h3:hover{
+  background-color: beige;
+  color: #785317;
+}
