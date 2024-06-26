@@ -1,0 +1,14 @@
+*{
+    background-color: antiquewhite;
+}
+
+h1{
+    background-color: rgb(119, 119, 108);
+    color: rgb(247, 251, 255);
+    margin: 0 auto;
+}
+
+h2{
+    background-color: rgb(136, 136, 128);
+    color: rgb(247, 251, 255);
+}

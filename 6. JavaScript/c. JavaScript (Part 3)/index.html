@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Part-03</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>JavaScript's Part-03</h1>
+
+    <h2>String Methods</h2>
+
+    <h3>Strings are <span>immutable</span> : Means can't be changed, if once saved. </h3>
+
+    <h3>str<span>.trim</span>: Removes all useless whitespaces in a code [from start n end part only, spaces if in the middle won't be removed by this method] And this creates new str if run again, it will show the previous/original form.</h3>
+
+    <h3>str<span>.toUpperCase</span>: This helps in making all the text/content into CAPS</h3>
+
+    <h3>str<span>.toLowerCase</span>: This helps in making all the text/content into small-caps</h3>
+
+    <h2>String M with Arguments</h2>
+
+    <h3>str<span>.indexOf(arg)</span>: Here, we can find out or search for any part/index in a given string. It'll show us the 1st occurence of that alphabet. If it doesn't find it, it'll show us (-1, means not found). </h3>
+
+    <h3>str<span>.trim().toUpperCase()</span>: This helps in chaining all the required methods together.</h3>
+
+    <h3>str<span>.slice()</span>: This helps in slicing the words from wherever we want it to slice. But we would have to add a starting n ending index for this process.</h3>
+
+    <h3>str<span>.replace()</span>: Searches a value in the string & returns a value replaced.</h3>
+
+    <h3>str<span>.repeat()</span>: This repeats with the number of copies mentioned. </h3>
+
+    <h2>Arrays</h2>
+    <!-- Linear collection of things -->
+    <h3>Arrays are <span>mutable</span> in JS: It can be changed.</h3>
+
+    <h2>Array Methods</h2>
+
+    <h3>
+        <ol>
+            <li>push: <span>adds</span> up an array from the end.</li>
+            <!-- here, we've to which thing to add. -->
+
+            <li>pop: <span>deletes</span> the last array (name/content) and returns it.</li>
+            <!-- here, it deletes the last updated word/part automatically, returning us with the deleted word/part.  -->
+
+            <li>unshift: <span>adds</span> from the start.</li>
+            <li>shift: <span>deletes</span> from the start and returns it.</li>
+        </ol>
+    </h3>
+
+    <ul>
+        <li><h3>cars<span>.indexOf("bmw")</span> : Here, we can find out or search for any part/index in a given array. It'll show us the 1st occurence of that alphabet. If it doesn't find it, it'll show us (-1, means not found) and we've to write the exact same name as we've given to the array, e.g: "bwm" ✅ "BMW" 🙅🏻‍♀️</h3></li>
+
+        <li><h3>cars<span>.includes()</span> : This also helps in finding the value we're searching for, in the form of 'true/false' </h3></li>
+
+        <li><h3>cats<span>.concat()</span> : helps in merging 2 arrays.</h3></li> 
+        <!-- NOTE: this is a new array,inka original value phle jaisi hi hogi, no changes there. N jisse bhi phle likhnge wohi aage dekhenga. -->
+        
+        <li><h3>color<span>.reverse()</span> : This will reverse the whole part, and original code-line mein bhi same changes dekhne milenge hme. To bring them back to the orig position, we've to again run this method. </h3></li>
+
+        <li><h3>str<span>.slice(s, e)</span> : Copies a portion of an array. 'start[s], end[e]' are optional values. And this is also same as Strings</h3></li>
+
+        <li><h3>color<span>.splice()</span> : removes / replaces / add elements in the place.
+            <br>
+        ~ <span>splice</span>: (start, deleteCount, item0....) 
+    <br> ~ changes are in original line. </h3></li>
+    <!-- .splice(1); 1 se lekr last digit tak sab num's delete kr dega. 
+    .splice(1, 0, "hdf", "erjie"); 1=start, 0=delete, "hdf"= added-->
+
+        <li><h3>str<span>.sort()</span> : sorts an array in ascen/descen order. This works completely fine with chars but doesn't work properly with num values.</h3></li>
+
+    </ul>
+
+    <h2>Array Reference</h2>
+    <ol>
+        <h3><li>Which means, <span>address of an array in memory</span>. <br>
+            [1] === [1] (they aren't equal), as they have different address[memory], so here they arrays aren't comparable the addresses are, that's the reason we're getting 'false' as an op. 
+
+        </li>
+    </h3>    
+    </ol>
+
+    <h2>Constant Array</h2>
+
+    <h3>Using this keyword <span>'const'</span> would make the values unchangable. But if are using it with arr, we can still change/modify the values. <br> 
+        const arr = ['a', 'b'. 'c']; <br>
+        arr.push('d'); <br>
+        arr.pop(); <br>
+        <span>~ All of the above mentioned methods would work here in arr. </span> <br>
+        <span> ~ But adding the new array won't work, arr = ['a', 'b'. 'd'];</span> <br>
+        <span>~ arr ke aage const likhne se uske values const nai hoti, but uska address nai change krwaya ja sakta.</span>
+    </h3>
+
+    <h2>Nested Arrays</h2>
+    <h3>Also called <span>Multi-dimensional arrays</span> <br> Arrays mein arrays, let arr = [ [2,3], [3,6], [6, 9] ]; <br> 
+    <span>~ Individual nums ko bhi access krna possible hai, nested arr mein!</span>  </h3>
+
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(183, 169, 152);
+}
+
+h1{
+    background-color: azure;
+    color: rgb(59, 97, 130);
+    text-align: center;
+}
+
+h2{
+    background-color: rgb(225, 245, 245);
+    color: rgb(81, 113, 141);
+    text-align: center;
+}
+
+h3{
+    background-color: rgb(229, 235, 235);
+    color: rgb(72, 97, 118);
+    text-align: center;
+}
+
+h4{
+    background-color: rgb(206, 229, 229);
+    color: rgb(63, 89, 111);
+    text-align: center;
+}
+
+li{
+    background-color: rgb(75, 60, 18);
+    color: bisque;
+}
+
+p{
+    background-color: rgb(108, 162, 209);
+    color: rgb(248, 248, 248);
+}

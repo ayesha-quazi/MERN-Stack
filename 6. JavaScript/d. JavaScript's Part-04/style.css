@@ -1,0 +1,14 @@
+h1, h2{
+    color: rgba(86, 88, 88, 0.982);
+    background-color: rgb(175, 182, 180);
+    text-align: center;
+}
+
+body{
+    background-color: rgb(201, 209, 209);
+    color: rgb(20, 20, 20);
+}
+
+span{
+    color: rgb(146, 85, 19);
+}
