@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(200, 175, 240);
+}
+
+h1{
+    background-color: rgb(108, 5, 176);
+    text-align: center;
+    color: rgb(255, 254, 253);
+}
+
+h2{
+    background-color: rgb(71, 14, 129);
+    color: rgb(253, 253, 253);
+    text-align: center;
+}
+
+.container{
+    background-color: rgb(171, 198, 214);
+}
+
+.button{
+    margin: 12px;
+}
+.badge{
+    margin: 12px;
+}
+
