@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 3 [HTML]</title>
+</head>
+<body>
+    <h1>Level 3 of [HTML]</h1>
+
+    <!-- Tables in HTML -->
+
+    <h4>1) Table</h4>
+
+    <table border="">
+        <caption>Time Schedule</caption>
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>Time</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Monday</td>
+                <td>2 hours</td>
+            </tr>
+
+            
+            <tr>
+                <td>Tuesday</td>
+                <td>2 hours</td>
+            </tr>
+
+            
+            <tr>
+                <td>Wednesday</td>
+                <td>2 hours</td>
+            </tr>
+
+        </tbody>
+    </table>
+    <br/>
+
+    <!-- Semantics in Table: 
+        thead= for heading,
+        tbody= for body (for main content)
+        tfooter= at end (mainly for billing purpose)-->
+
+        <hr>
+
+        <!-- Forms in HTML -->
+
+        <h4>Forms</h4>
+
+        <form action="/action">
+
+            <h2>Welcome to Technocrats World!</h2>
+
+            <fieldset>
+                <legend>Personal Details</legend>
+<br>
+
+                <div>
+                    <label>Salutation 
+                        <select name="salutation">
+                            <option>--None--</option>
+                            <option>Mr.</option>
+                            <option>Ms.</option>
+                            <option>Mrs.</option>
+                        </select>
+                    </label>
+                </div>
+<br>
+            <div>
+                <label for="user">Username: </label>
+                <input type="text" placeholder="Enter your username" id="user" >
+            </div>
+<br/>
+            <div>
+                <label for="mail">E-mail:</label>
+                <input type="email" placeholder="Enter your Email" id="mail">
+            </div>
+<br/>
+            <div>
+                Gender:
+                <input type="radio" id="sex" name="gen" value="male">
+                <label for="sex">Male</label>
+                <input type="radio" id="sex" name="gen" value="female">
+                <label for="sex">Female</label>
+            </div>
+<br/>
+            <div>
+                <label for="num">Number:</label>
+                <input type="number" id="num" placeholder="Phone number">
+            </div>
+<br/>
+            <div>
+                <label for="DOB">Date of Birth:</label>
+                <input type="date" id="DOB">
+            </div>
+<br/>
+
+            <div>
+                <label>
+                    Address:
+                    <br/>
+                    <textarea placeholder="Add your Address here" cols="30" rows="4"></textarea>
+                </label>
+            </div>
+
+            <div>
+                <button type="submit">SUBMIT</button>
+            </fieldset>
+            </div>
+        </form>
+
+        <hr>
+</body>
+</html>
