@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Spotify - Web Player: Music for Everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-brands fa-spotify spotify"> Spotify</i><br>
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="./assets/library_icon.png" alt="lib-icon">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- main content -->
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="./assets/backward_icon.png" alt="backward_icon">
+                    <img class="hide" src="./assets/forward_icon.png" alt="forward_icon">
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                <button class="badge nav-item dark-badge "><i class="fa-solid fa-circle-arrow-down" style="margin-right: 5px;"></i> Install App</button>
+                <i class="fa-regular fa-user nav-item"></i>
+                </div>
+                
+            </div>            
+                <h2>Recently Played</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./assets/card2img.jfif
+                        " alt="Top 50 Global Songs" class="card-img">
+                        <p class="card-title">Top Hits - Dr. Israr Ahmed</p>
+                        <p class="card-info">Enlightening minds with wisdom in...</p>
+                    </div> 
+                </div>
+
+            <h2>Trending now near you &hearts;</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./assets/card1img.jfif" alt="Top 50 Global Songs" class="card-img">
+                        <p class="card-title">Deen Thoughts</p>
+                        <p class="card-info">Kindness is the universal language understood by every heart...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card10img.png" class="card-img">
+                        <p class="card-title">Indian Startup Stories</p>
+                        <p class="card-info">Innovation meets tradition: Indian startups blending old and...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card12img.png" class="card-img">
+                        <p class="card-title">TRS Podcasts</p>
+                        <p class="card-info">Where every story finds its voice...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card3img.jfif" class="card-img">
+                        <p class="card-title">Stories of Prophets</p>
+                        <p class="card-info">Adam and Hawa were the first humans created by God...</p>
+                    </div>
+                </div>
+
+                <h2>Featured Charts &hearts;</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./assets/card5img.jpg" alt="Top 50 Global Songs" class="card-img">
+                        <p class="card-title">Youth Club</p>
+                        <p class="card-info">Empowering youth, shaping futures!...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card6img.jfif" alt="Top 50 Global Songs" class="card-img">
+                        <p class="card-title">Finance News</p>
+                        <p class="card-info">Oil prices jump on supply concerns...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card13img.jfif" class="card-img">
+                        <p class="card-title">The Musafir Stories</p>
+                        <p class="card-info">Journeys told in stories, each a unique adventure...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card7img.jfif" alt="Top 50 Global Songs" class="card-img">
+                        <p class="card-title">The Journal</p>
+                        <p class="card-info">Capture life's moments in The Journal...</p>
+                    </div>
+                    </div>
+
+                    <h2>Recommended for Today &hearts;</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./assets/card8img.jfif" alt="Top 50 Global Songs" class="card-img">
+                        <p class="card-title">StudyIQ</p>
+                        <p class="card-info">Knowledge made simple with StudyIQ...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card9img.png" alt="Top 50 Global Songs" class="card-img">
+                        <p class="card-title">Times Of India</p>
+                        <p class="card-info">Stay informed, stay ahead - with Times of India...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card4img.jfif" class="card-img">
+                        <p class="card-title">OnePath Podcast</p>
+                        <p class="card-info">OnePath Podcast: Where every story leads to inspiration...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/card11img.jfif" alt="Top 50 Global Songs" class="card-img">
+                        <p class="card-title">WTF is?</p>
+                        <p class="card-info">Where we break down complex topics into simple bites</p>
+                    </div>
+                    
+                </div>
+                <div class="footer">
+                    <div class="line">Made with &hearts; by <span class="name">Ayesha Quazi</span>.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="music-player">
+            <div class="album">
+
+                <div class="image-and-name">
+                    <img src="./Homework Assets/album_picture.jpeg" class="album-profile">
+                    <div class="singer-name">
+                        <p class="p1">Noor</p>
+                        <p class="p2">Lorem Ipsum</p>
+                    </div>
+                    <span class="heart"> <i class="fa-regular fa-heart"></i></span>
+                </div>
+
+            </div>
+
+
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./assets/player_icon1.png" class="player-control-icon">
+                    <img src="./assets/player_icon2.png" class="player-control-icon">
+                    <img src="./assets/player_icon3.png" class="player-control-icon" style="opacity: 1;height:2rem"> 
+                    <img src="./assets/player_icon4.png" class="player-control-icon">
+                    <img src="./assets/player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="tot-time">03:33</span>
+                </div>
+            </div>
+
+
+            <div class="controls">
+                <div class="control-icons">
+                    <i class="fa-solid fa-microphone"></i>
+                    <i class="fa-solid fa-play"></i>
+                    <i class="fa-solid fa-volume-low"></i>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
