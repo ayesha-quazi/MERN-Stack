@@ -1,0 +1,2 @@
+What is Terminal? 
+➡ A text input and output environment
