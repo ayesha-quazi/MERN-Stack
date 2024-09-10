@@ -1,4 +1,29 @@
-What is Terminal? 
+• What is Terminal? 
 ➡ A text input and output environment
 
-Adv/benefits: Used to download some programming packages, Speed ⬆, efficiency ⬆.
+• Adv/benefits: Used to download some programming packages, Speed ⬆, efficiency ⬆.
+
+• Basic Commands: 
+
+~ ls [list files] (show my files)
+~ pwd [print working directory] (Where am I rn)
+~ clear (clears the screen)
+~ 
+~
+
+
+
+
+
+
+
+•
+•
+•
+•
+•
+•
+•
+ 
+
+
