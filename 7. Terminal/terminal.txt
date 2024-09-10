@@ -1,2 +1,4 @@
 What is Terminal? 
 ➡ A text input and output environment
+
+Adv/benefits: Used to download some programming packages, Speed ⬆, efficiency ⬆.
