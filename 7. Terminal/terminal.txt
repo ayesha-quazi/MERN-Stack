@@ -8,22 +8,6 @@
 ~ ls [list files] (show my files)
 ~ pwd [print working directory] (Where am I rn)
 ~ clear (clears the screen)
-~ 
-~
-
-
-
-
-
-
-
-•
-•
-•
-•
-•
-•
-•
  
 
 
