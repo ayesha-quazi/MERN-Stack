@@ -23,5 +23,10 @@ eg. cd Desktop; cd .. (one step back)
 
 [~ => home directory; / => root directory]
  
+• Making directories: 
+
+mkdir => make directory (creates folders only)
+
+
 
 
