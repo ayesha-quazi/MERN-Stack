@@ -1,0 +1,3 @@
+• Git: Free n Open Source VCS (Version Control System => tools that help us track changes in the code)
+
+• Github: websites where we host repos online. 
