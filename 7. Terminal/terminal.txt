@@ -27,6 +27,15 @@ eg. cd Desktop; cd .. (one step back)
 
 mkdir => make directory (creates folders only)
 
+• Flags: are characters that we pass with commands to modify their behaviour. 
+
+~ manual (kaise kam krti hai woh command) command => man ls: gives info about 'ls' command ; man mkdir: gives info about 'mkdir' command.
+
+~ with flags => 
+ls -l: more info
+ls -a: hidden files
+ls -la: more info + hidden files. 
+
 
 
 
