@@ -40,4 +40,9 @@ ls -la: more info + hidden files.
 
 eg. touch index.html; touch index.css [used for time change or to create a new file]
 
+• Deleting Files n Folders: {VERY SENSITIVE Commands}
+
+~ rm => remove files
+~ rmdir => remove empty folders
+~ rm -rf => remove any folder (r:recursive delete; f:forced delete)
 
