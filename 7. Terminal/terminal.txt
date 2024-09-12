@@ -36,6 +36,8 @@ ls -l: more info
 ls -a: hidden files
 ls -la: more info + hidden files. 
 
+• Touch commands: used for creating files; 
 
+eg. touch index.html; touch index.css [used for time change or to create a new file]
 
 
