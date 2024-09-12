@@ -5,10 +5,23 @@
 
 • Basic Commands: 
 
-~ ls [list files] (show my files)
+~ ls [list files] (show my files) {jab bhi hm hmre system ke andr hote hai} 
+[~ home directory]
 ~ pwd [print working directory] (Where am I rn)
 ~ clear (clears the screen)
-~ cd ()
+
+• Navigation: 
+
+~ inside n outside directory
+=> cd = change directory 
+eg. cd Desktop; cd .. (one step back)
+
+• Paths in Navigation: 
+
+1. Relative path: cd/Desktop/Sigma
+2. Absolute path: cd/Users/Ayesha/Desktop/Sigma [starts with /]
+
+[~ => home directory; / => root directory]
  
 
 
