@@ -3,4 +3,7 @@
 • Github: websites where we host repos online. 
 
 ~ README.md: details of the repo.
-~ Commit: changes in the code. Even a single dot
+~ Commit: changes in the code. Even a single dot.
+
+• Clone command: git clone <-paste the HTTP link of the repo->
+once done it'll directly start cloning the repo. 
