@@ -1,3 +1,6 @@
 • Git: Free n Open Source VCS (Version Control System => tools that help us track changes in the code)
 
 • Github: websites where we host repos online. 
+
+~ README.md: details of the repo.
+~ Commit: changes in the code. Even a single dot
