@@ -7,3 +7,5 @@
 
 • Clone command: git clone <-paste the HTTP link of the repo->
 once done it'll directly start cloning the repo. 
+
+• Status: displays the state of the code.
