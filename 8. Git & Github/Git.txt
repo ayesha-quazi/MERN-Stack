@@ -9,4 +9,3 @@
 once done it'll directly start cloning the repo. 
 
 • Status: displays the state of the code.
-
